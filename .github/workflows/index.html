@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="lg-container"> -->
+        <div class="calculator-container">
+            <div id="result">
+                <em style="font-size: 1.3rem;">Calssi</em>
+                <input type="text" id="display" value="0" placeholder="0" maxlength="10">
+            </div>
+            <div class="input-container">
+              <button id="allclear" onclick="Clear()">AC</button>
+              <button onclick="del()" id="operator" class="delete">DEL</button>
+              <button onclick="display('%')" id="operator">%</button>
+              <button onclick="display('/')" id="operator">/</button>
+              <button onclick="display('7')">7</button>
+              <button onclick="display('8')">8</button>
+              <button onclick="display('9')">9</button>
+              <button onclick="display('*')" id="operator">x</button>
+              <button onclick="display('4')">4</button>
+              <button onclick="display('5')">5</button>
+              <button onclick="display('6')">6</button>
+              <button onclick="display('-')" id="operator">-</button>
+              <button onclick="display('1')">1</button>
+              <button onclick="display('2')">2</button>
+              <button onclick="display('3')">3</button>
+              <button onclick="display('+')" id="operator">+</button>
+              <button onclick="display('0')">0</button>
+              <button onclick="display('.')">.</button>
+              <button onclick="equal()" id="equal">=</button>
+            </div>
+        
+    </div>
+    <footer>@vimal copy rights reserved.</footer>
+    <script src="main.js"></script>
+</body>
+</html>
